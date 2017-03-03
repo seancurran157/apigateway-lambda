@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<head>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+  <script src="contact.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+  <form id="contactForm">
+    <input type="text" id="name-input" placeholder="Your name..."/>
+    <br>
+    <input type="text" id="email-input" placeholder="Your email..."/>
+    <br>
+    <textarea id="message-input" placeholder="Your message..."></textarea>
+    <br>
+    <textarea id="publish-input" placeholder="Phone number..."></textarea>
+    <br>
+    <div class="g-recaptcha" data-sitekey="YOUR-KEY"></div>
+    <br>
+    <input type="submit" />
+  </form>
+</body>
